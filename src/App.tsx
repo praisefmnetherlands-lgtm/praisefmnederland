@@ -26,6 +26,8 @@ import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import Navbar from './components/Navbar'
 
+import WeatherBar from './components/WeatherBar'
+
 import Footer from './components/Footer'
 
 import RecentlyPlayed from './components/RecentlyPlayed'
@@ -642,7 +644,7 @@ const HomeBBC = ({
 
           </div>
 
-
+          <WeatherBar />
 
           <div className="flex justify-center md:justify-end mt-3 mb-5">
 
