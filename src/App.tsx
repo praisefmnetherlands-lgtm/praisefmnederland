@@ -903,7 +903,7 @@ const AppContent: React.FC = () => {
     es.onmessage = (e) => {
 
       try {
-
+        console.log('ZENO METADATA:', e.data)
         const data = JSON.parse(e.data)
 
         const streamTitle = data.streamTitle || ''
