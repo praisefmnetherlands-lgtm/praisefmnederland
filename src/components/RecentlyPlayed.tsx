@@ -39,6 +39,7 @@ const RecentlyPlayed: React.FC<RecentlyPlayedProps> = ({ tracks }) => {
     'voices of praise',
     'night encounter',
     'daily devotional',
+    'verse of the day',
     // Termos holandeses adicionados
     'reclame',
     'commercial',
